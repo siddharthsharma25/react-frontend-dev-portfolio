@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "नमस्ते",
+      "description": "मेरा नाम पार्थ शर्मा है। मैंने अपना ग्रेजुएशन और पोस्ट ग्रेजुएशन एसएस जैन सुबोध कॉलेज, जयपुर से किया है। मैं फाइनेंस और मार्केटिंग फील्ड से हूं। वर्तमान में मैं एक्सल सर्विसेज प्राइवेट लिमिटेड के साथ काम कर रहा हूं। ",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "मेरे बारे मेँ",
+        "projects": "परियोजनाओं",
+        "skills": "कौशल",
+        "experience": "अनुभव"
       }
     },
     "projects": [

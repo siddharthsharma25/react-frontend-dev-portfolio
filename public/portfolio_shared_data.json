@@ -14,52 +14,52 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.png"
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
+          "name": "Communication",
           "class": "devicon-html5-plain",
           "level": "95"
         },
         {
-          "name": "CSS 3",
+          "name": "Critical thinking",
           "class": "devicon-css3-plain",
           "level": "95"
         },
         {
-          "name": "Angular",
+          "name": "Creativity",
           "class": "devicon-angularjs-plain",
           "level": "80"
         },
         {
-          "name": "TypeScript",
+          "name": "Teamwork",
           "class": "devicon-typescript-plain",
           "level": "90"
         },
         {
-          "name": "JavaScript",
+          "name": "Finance",
           "class": "devicon-javascript-plain",
           "level": "70"
         },
         {
-          "name": "Sass",
+          "name": "Marketing",
           "class": "devicon-sass-original",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
+          "name": "Banking",
           "class": "devicon-bootstrap-plain",
           "level": "85"
         },
         {
-          "name": "C#",
+          "name": "Time Management",
           "class": "devicon-csharp-plain",
           "level": "65"
         },
         {
-          "name": "MySql",
+          "name": "Decision making",
           "class": "devicon-mysql-plain",
           "level": "60"
         }

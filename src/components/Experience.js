@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import {VerticalTimeline,VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
@@ -11,23 +8,23 @@ class Experience extends Component {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        // const technologies = work.technologies;
+        const FieldValue = work.Field;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
+        var Field = FieldValue.map((technology, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
               {technology}
             </Badge>
           );
         });
-        var tech = technologies.map((technology, i) => {
-          return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
+        // var tech = technologies.map((technology, i) => {
+        //   return (
+        //     <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+        //       {technology}
+        //     </Badge>
+        //   );
+        // });
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -41,7 +38,7 @@ class Experience extends Component {
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
-              {mainTech}
+              {Field}
             </div>
 
             <h3
@@ -56,7 +53,13 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            {/* <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ textAlign: "left" }}
+            >
+              {work.Field}
+            </h4> */}
+            <div style={{ textAlign: "left", marginTop: "15px" }}>{FieldValue}</div>
           </VerticalTimelineElement>
         );
       });

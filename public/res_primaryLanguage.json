@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "My name is Parth Sharma.I have done my graduations and post Graduation from SS Jain suboadh college,jaipur.I am from Finanace and Marketing Field.Currently I am working with Exl services Pvt. Ltd.",
+      "description": "My name is Parth Sharma.I have done my graduations and post Graduation from SS Jain suboadh college,jaipur.I am from Finanace and Marketing Field.Currently I am working with Exl services Pct. Ltd.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,37 +81,19 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+        "company": "Paladian Organisation",
+        "title": "Marketing",
+        "years": "01/02/2019 - 01-03/2019",
+        "Field": [
+          "Marketing On Field"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        "company": "EXL services Pvt. Ltd.",
+        "title": "Finance",
+        "years": "01/05/2021 - 01-07/2021",
+        "Field": [
+          "Office Work - Finance"
         ]
       }
     ]
